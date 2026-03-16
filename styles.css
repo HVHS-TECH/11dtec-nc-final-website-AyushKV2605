@@ -12,12 +12,6 @@ body{
     background:#020617;
 }
 
-
-
-.nav-links{
-    gap:30px;
-}
-
 .nav-links a{
     color:white;
     font-size:18px;
