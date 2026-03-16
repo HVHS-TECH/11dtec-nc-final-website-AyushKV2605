@@ -1,18 +1,5 @@
 
-body{
-    margin:0;
-    font-family: 'Times New Roman', Times, serif;
-    background:#b5c2e0;
-}
-
-.navbar{
-    display:flex;
-    align-items:center;
-    padding:20px 50px;
-    background:#020617;
-}
-
-.nav-links a{
+.nav-links {
     color:white;
     font-size:18px;
    
