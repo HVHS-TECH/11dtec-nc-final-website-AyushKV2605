@@ -13,9 +13,7 @@ body{
     background:#020617;
 }
 
-.logo{
-    color:#22c55e;
-}
+
 
 .nav-links{
     list-style:none;
@@ -30,7 +28,4 @@ body{
     transition:0.3s;
 }
 
-.nav-links a:hover{
-    color:#22c55e;
-}
 
