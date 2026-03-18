@@ -1,6 +1,10 @@
 head, body{
     background-color: rgb(166, 182, 240);;
 }
+
+.navbar li {
+    float: left; 
+}
 .navbar li a {
     display: block; 
     color: white;
