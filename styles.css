@@ -5,8 +5,11 @@ nav{
     text-align: center;
     background-color: rgb(245, 197, 197);
     padding: 10px;  
-    
+}
 
+main{
+    text-align: center;
+    padding: 20px;
 }
 
 
