@@ -2,26 +2,30 @@ head, body{
     background-color: rgb(166, 182, 240);;
 }
 nav{
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-
-    margin: 20px auto;
-    max-width: 800px;
-    gap: 20px;
+    background: #4a5568;
+    padding: 12px;
+    margin: 15px auto;
+    max-width: 750px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 nav a {
-    color: white;
-    padding: 10px 20px;
-    border-radius: 25px;
-    font-weight: bold;
-    font-size: 16px;
-    transition: all 0.3s ease;
-    background: rgba(255,255,255,0.1);
+    color: #e2e8f0;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 15px;
+    transition: background-color 0.2s ease;
+    background: transparent;
+    border: 1px solid transparent;
 }
 
 nav a:hover {
-    background: rgba(255,255,255,0.2);
-    border-color: rgba(255,255,255,0.5);
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    background: rgba(255,255,255,0.1);
+    color: #ffffff;
 }
