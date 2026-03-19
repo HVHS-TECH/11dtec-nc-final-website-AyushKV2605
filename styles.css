@@ -1,6 +1,13 @@
 head, body{
     background-color: rgb(166, 182, 240);;
 }
+nav{
+    text-align: center;
+    background-color: rgb(241, 241, 241);
+    padding: 10px;  
+    
+    
 
+}
 
 
