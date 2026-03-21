@@ -12,7 +12,7 @@ main{
     padding: 20px;
 }
 
-.tournaments-container {
+.tournaments{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,7 +29,7 @@ main{
     height:200px;
 }
 
-.TWC28 {
+.WTC27 {
     background-color: rgb(163, 221, 176);
     color:white;
     border: 2px solid black;
@@ -38,6 +38,16 @@ main{
     width: 400px;
     height:200px;
     float: none; /* Remove float */
+}
+
+.TWC28 {
+    background-color: rgb(163, 221, 176);
+    color:white;
+    border: 2px solid black;
+    margin: 0; /* Remove margin */
+    padding: 20px;
+    width: 400px;
+    height:200px;
 }
 
 
