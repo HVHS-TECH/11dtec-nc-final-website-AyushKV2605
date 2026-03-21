@@ -12,11 +12,18 @@ main{
     padding: 20px;
 }
 
+.tournaments-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Space between the boxes */
+}
+
 .WC27 {
     background-color: rgb(163, 221, 176);
     color:white;
     border: 2px solid black;
-    margin: 20px;   
+    margin: 0; /* Remove margin since container handles spacing */
     padding: 20px;
     width: 400px;
     height:200px;
@@ -26,11 +33,11 @@ main{
     background-color: rgb(163, 221, 176);
     color:white;
     border: 2px solid black;
-    margin: 20px;   
+    margin: 0; /* Remove margin */
     padding: 20px;
     width: 400px;
     height:200px;
-    float: right;
+    float: none; /* Remove float */
 }
 
 
