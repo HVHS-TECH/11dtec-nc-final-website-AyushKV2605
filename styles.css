@@ -50,6 +50,159 @@ main{
     height:200px;
 }
 
+.leagues-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    padding: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.league-card {
+    background-color: rgb(255, 248, 220);
+    border: 3px solid rgb(220, 100, 50);
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.league-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.league-card h2 {
+    color: rgb(139, 69, 19);
+    margin-top: 0;
+    border-bottom: 2px solid rgb(220, 100, 50);
+    padding-bottom: 10px;
+}
+
+.league-card p {
+    color: #333;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+/* Cricket Info Page Styles */
+.info-section {
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+}
+
+.info-section h2 {
+    color: rgb(139, 69, 19);
+    border-bottom: 3px solid rgb(220, 100, 50);
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+.formats-grid, .rules-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.format-card, .rule-card {
+    background-color: rgb(255, 248, 220);
+    border: 2px solid rgb(220, 100, 50);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s ease;
+}
+
+.format-card:hover, .rule-card:hover {
+    transform: translateY(-3px);
+}
+
+.format-card h3, .rule-card h3 {
+    color: rgb(139, 69, 19);
+    margin-top: 0;
+    font-size: 1.2em;
+}
+
+.equipment-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.equipment-item {
+    background-color: rgb(255, 248, 220);
+    border: 2px solid rgb(220, 100, 50);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.equipment-item h3 {
+    color: rgb(139, 69, 19);
+    margin-top: 0;
+    font-size: 1.1em;
+}
+
+.field-positions {
+    background-color: rgb(255, 248, 220);
+    border: 2px solid rgb(220, 100, 50);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.field-positions h3 {
+    color: rgb(139, 69, 19);
+    margin-top: 0;
+}
+
+.field-positions ul {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.field-positions li {
+    margin: 8px 0;
+    line-height: 1.5;
+}
+
+.scoring-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.scoring-item {
+    background-color: rgb(255, 248, 220);
+    border: 2px solid rgb(220, 100, 50);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.scoring-item h3 {
+    color: rgb(139, 69, 19);
+    margin-top: 0;
+}
+
+.scoring-item ul {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.scoring-item li {
+    margin: 8px 0;
+    line-height: 1.5;
+}
+
 
 
 
