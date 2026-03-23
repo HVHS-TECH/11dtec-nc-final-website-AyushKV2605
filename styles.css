@@ -60,45 +60,39 @@ main{
 }
 
 .league-card {
-    background-color: rgb(255, 248, 220);
-    border: 3px solid rgb(220, 100, 50);
-    border-radius: 10px;
-    padding: 25px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: rgb(163, 221, 176);
+    color: white;
+    border: 2px solid black;
+    padding: 20px;
 }
 
 .league-card:hover {
     transform: translateY(-8px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
 }
 
 .league-card h2 {
-    color: rgb(139, 69, 19);
+    color: white;
     margin-top: 0;
-    border-bottom: 2px solid rgb(220, 100, 50);
-    padding-bottom: 10px;
 }
 
 .league-card p {
-    color: #333;
+    color: white;
     line-height: 1.6;
     margin: 10px 0;
 }
 
 /* Cricket Info Page Styles */
 .info-section {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgb(163, 221, 176);
+    color: white;
+    border: 2px solid black;
+    padding: 20px;
     margin: 30px auto;
-    padding: 25px;
-    border-radius: 15px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     max-width: 1000px;
 }
 
 .info-section h2 {
-    color: rgb(139, 69, 19);
-    border-bottom: 3px solid rgb(220, 100, 50);
-    padding-bottom: 10px;
+    color: white;
     margin-top: 0;
 }
 
@@ -110,11 +104,10 @@ main{
 }
 
 .format-card, .rule-card {
-    background-color: rgb(255, 248, 220);
-    border: 2px solid rgb(220, 100, 50);
-    border-radius: 10px;
+    background-color: rgb(163, 221, 176);
+    color: white;
+    border: 2px solid black;
     padding: 20px;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
     transition: transform 0.2s ease;
 }
 
@@ -123,7 +116,7 @@ main{
 }
 
 .format-card h3, .rule-card h3 {
-    color: rgb(139, 69, 19);
+    color: white;
     margin-top: 0;
     font-size: 1.2em;
 }
@@ -136,29 +129,28 @@ main{
 }
 
 .equipment-item {
-    background-color: rgb(255, 248, 220);
-    border: 2px solid rgb(220, 100, 50);
-    border-radius: 10px;
+    background-color: rgb(163, 221, 176);
+    color: white;
+    border: 2px solid black;
     padding: 20px;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
 }
 
 .equipment-item h3 {
-    color: rgb(139, 69, 19);
+    color: white;
     margin-top: 0;
     font-size: 1.1em;
 }
 
 .field-positions {
-    background-color: rgb(255, 248, 220);
-    border: 2px solid rgb(220, 100, 50);
-    border-radius: 10px;
+    background-color: rgb(163, 221, 176);
+    color: white;
+    border: 2px solid black;
     padding: 20px;
     margin-top: 20px;
 }
 
 .field-positions h3 {
-    color: rgb(139, 69, 19);
+    color: white;
     margin-top: 0;
 }
 
@@ -180,15 +172,14 @@ main{
 }
 
 .scoring-item {
-    background-color: rgb(255, 248, 220);
-    border: 2px solid rgb(220, 100, 50);
-    border-radius: 10px;
+    background-color: rgb(163, 221, 176);
+    color: white;
+    border: 2px solid black;
     padding: 20px;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
 }
 
 .scoring-item h3 {
-    color: rgb(139, 69, 19);
+    color: white;
     margin-top: 0;
 }
 
