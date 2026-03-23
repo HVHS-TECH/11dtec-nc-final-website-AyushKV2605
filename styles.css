@@ -62,16 +62,12 @@ main{
 .league-card {
     background-color: rgb(255, 248, 220);
     border: 3px solid rgb(220, 100, 50);
-    border-radius: 10px;
     padding: 25px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
 }
 
-.league-card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-}
+
 
 .league-card h2 {
     color: rgb(139, 69, 19);
