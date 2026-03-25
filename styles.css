@@ -50,6 +50,44 @@ main{
     height:200px;
 }
 
+.WorldCups{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;  
+    
+}
+.CWC {
+    background-color: rgb(163, 221, 176);
+    color:white;
+    border: 2px solid black;
+    margin: 0; 
+    padding: 20px;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+}
 
+.TWC {
+    background-color: rgb(163, 221, 176);
+    color:white;
+    border: 2px solid black;
+    margin: 0; 
+    padding: 20px;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+}
+
+.WTC {
+    background-color: rgb(163, 221, 176);
+    color:white;
+    border: 2px solid black;
+    margin: 0; 
+    padding: 20px;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+}
 
 
