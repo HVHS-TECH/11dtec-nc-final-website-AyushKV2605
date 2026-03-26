@@ -71,7 +71,7 @@ main{
 .TWC {
     background-color: rgb(163, 221, 176);
     color:white;
-    border: 2px solid rgb(245, 245, 245);
+    border: 2px solid rgb(0, 86, 247);
     margin: 0; 
     padding: 20px;
     width: 400px;
@@ -82,7 +82,7 @@ main{
 .WTC {
     background-color: rgb(163, 221, 176);
     color:white;
-    border: 2px solid rgb(0, 68, 255);
+    border: 2px solid rgb(255, 255, 255);
     margin: 0; 
     padding: 20px;
     width: 400px;
