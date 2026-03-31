@@ -1,10 +1,11 @@
 head, body{
-    background-color: rgb(166, 182, 240);;
+    background-color: #9DB8A5;;
 }
 nav{
     text-align: center;
-    background-color: rgb(245, 197, 197);
+    background-color: #B7C2A8;
     padding: 10px;  
+    border: 2px solid rgb(133, 177, 144);
 }
 
 main{
@@ -20,9 +21,9 @@ main{
 }
 
 .WC27 {
-    background-color: rgb(163, 221, 176);
+    background-color: #9BB3C9;
     color:white;
-    border: 2px solid black;
+    border: 2px solid rgb(112, 167, 204);
     margin: 0; 
     padding: 20px;
     width: 400px;
@@ -30,9 +31,9 @@ main{
 }
 
 .WTC27 {
-    background-color: rgb(163, 221, 176);
+    background-color:#9BB3C9;
     color:white;
-    border: 2px solid black;
+    border: 2px solid rgb(112, 167, 204);
     margin: 0; 
     padding: 20px;
     width: 400px;
@@ -41,9 +42,9 @@ main{
 }
 
 .TWC28 {
-    background-color: rgb(163, 221, 176);
+    background-color: #9BB3C9;
     color:white;
-    border: 2px solid black;
+    border: 2px solid rgb(112, 167, 204);
     margin: 0; 
     padding: 20px;
     width: 400px;
