@@ -126,3 +126,43 @@ main{
     height:400px;
 
 }
+
+.cricket-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;  
+}
+
+.rules{
+    background-color: rgb(163, 221, 176);
+    color:white;
+    border: 2px solid black;
+    margin: 0; 
+    padding: 20px;
+    width: 400px;
+    height:400px;
+
+}
+
+.formats{
+    background-color: rgb(163, 221, 176);
+    color:white;
+    border: 2px solid black;
+    margin: 0; 
+    padding: 20px;
+    width: 400px;
+    height:400px;
+
+}
+
+.history{
+    background-color: rgb(163, 221, 176);
+    color:white;
+    border: 2px solid black;
+    margin: 0; 
+    padding: 20px;
+    width: 400px;
+    height:400px;
+
+}
